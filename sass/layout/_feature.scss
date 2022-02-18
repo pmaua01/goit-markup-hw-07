@@ -1,0 +1,40 @@
+/* Section - feature */
+
+/* Feature */
+.feature__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.feature__item {
+  width: 270px;
+  & + & {
+    margin-left: 30px;
+  }
+}
+
+.feature__title {
+  line-height: 1.7;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+.feature__text {
+  color: var(--second--text-color);
+  line-height: 1.7;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+/* Icon Feature */
+.feature__icon-bcg {
+  width: 270px;
+  height: 120px;
+  background-color: var(--secondary-bcg-color);
+  border-radius: 4px;
+}
+.feature__icon {
+  width: 65px;
+  height: 70px;
+  margin: 25px 102px;
+}

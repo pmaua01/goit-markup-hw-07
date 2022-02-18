@@ -1,0 +1,41 @@
+/* Our client */
+.client__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.client__list {
+  display: flex;
+}
+
+.client__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  fill: var(--icon-bck);
+
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    fill: var(--acent-color);
+    border: 1px solid var(--acent-color);
+  }
+}
+
+.client__icon + .client__icon {
+  margin-left: 30px;
+}
+
+.client__box {
+  /* outline: 1px solid green; */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
