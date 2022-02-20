@@ -28,6 +28,7 @@
 
 /* Icon Feature */
 .feature__icon-bcg {
+  @extend %flexcentr;
   width: 270px;
   height: 120px;
   background-color: var(--secondary-bcg-color);
@@ -36,5 +37,5 @@
 .feature__icon {
   width: 65px;
   height: 70px;
-  margin: 25px 102px;
+  // margin: 25px 102px;
 }

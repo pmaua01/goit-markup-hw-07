@@ -18,7 +18,7 @@
   }
 }
 
-.footer-address {
+.footer__address {
   color: var(--white-color);
   @extend %address;
 
@@ -28,7 +28,7 @@
   }
 }
 
-.footer-email {
+.footer__email {
   color: rgba(255, 255, 255, 0.6);
   @extend %address;
   &:hover,
@@ -37,7 +37,7 @@
   }
 }
 
-.footer-tel {
+.footer__tel {
   color: rgba(255, 255, 255, 0.6);
   @extend %address;
   &:hover,
